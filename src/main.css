@@ -1,4 +1,5 @@
-body {
-	color: red
-}
+@import './imported.css';
 
+.css-test h1 {
+	font-style: italic;
+}

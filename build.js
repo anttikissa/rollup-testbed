@@ -1,13 +1,16 @@
 
 let rollup = require('rollup')
 let rollupPostcss = require('rollup-plugin-postcss')
+let postcssImport = require('postcss-import')
 
 let log = console.log
 
 let postcssOptions = {
 	extract: 'dist/styles.css',
 	sourceMap: true,
-	plugins: []
+	plugins: [
+		postcssImport()
+	]
 }
 
 let watchOptions = {

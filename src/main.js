@@ -1,3 +1,13 @@
 import './main.css'
+import './main.styl'
 
-document.body.innerHTML = '<h1>This is a title</h1><p>Hello world</p>'
+document.body.innerHTML = `
+	<div class="css-test">
+		<h1>Test CSS imports</h1>
+		<p>Hello world</p>
+	</div>
+	<div class="stylus-test">
+		<h1>Test stylus imports</h1>
+		<p>Hello world</p>
+	</div>
+`

@@ -6,6 +6,7 @@
   "author": "Antti Kissaniemi <antti.kissaniemi@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "postcss-import": "^12.0.0",
     "rollup": "^0.66.6",
     "rollup-plugin-postcss": "^1.6.2",
     "stylus": "^0.54.5"
