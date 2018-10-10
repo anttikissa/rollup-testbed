@@ -1,0 +1,7 @@
+#!/bin/bash
+
+mkdir -p dist
+cp public/index.html dist
+
+node build.js
+
