@@ -31,6 +31,15 @@ watcher.on('event', event => {
 	if (event.code === 'BUNDLE_END') {
 		log('Watching files:', event.result.watchFiles)
 	}
+
+	if (event.code === 'FATAL') {
+		log('Fatal', event)
+	}
+
+	if (event.code === 'ERROR') {
+		log('Error', event)
+	}
+
 })
 
 
